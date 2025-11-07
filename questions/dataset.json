@@ -1,0 +1,188 @@
+{
+  "level_1": [
+    {
+      "suku_kata": ["Me", "ja"],
+      "jawaban": "Meja"
+    },
+    {
+      "suku_kata": ["Bu", "ku"],
+      "jawaban": "Buku"
+    },
+    {
+      "suku_kata": ["Bo", "la"],
+      "jawaban": "Bola"
+    },
+    {
+      "suku_kata": ["Ku", "da"],
+      "jawaban": "Kuda"
+    },
+    {
+      "suku_kata": ["Sa", "pi"],
+      "jawaban": "Sapi"
+    },
+    {
+      "suku_kata": ["Ru", "mah"],
+      "jawaban": "Rumah"
+    },
+    {
+      "suku_kata": ["Gu", "ru"],
+      "jawaban": "Guru"
+    },
+    {
+      "suku_kata": ["Ma", "ta"],
+      "jawaban": "Mata"
+    },
+    {
+      "suku_kata": ["Ka", "ki"],
+      "jawaban": "Kaki"
+    },
+    {
+      "suku_kata": ["Ba", "ju"],
+      "jawaban": "Baju"
+    },
+    {
+      "suku_kata": ["To", "pi"],
+      "jawaban": "Topi"
+    },
+    {
+      "suku_kata": ["Su", "su"],
+      "jawaban": "Susu"
+    },
+    {
+      "suku_kata": ["Na", "si"],
+      "jawaban": "Nasi"
+    },
+    {
+      "suku_kata": ["Ay", "ah"],
+      "jawaban": "Ayah"
+    },
+    {
+      "suku_kata": ["I", "bu"],
+      "jawaban": "Ibu"
+    }
+  ],
+  "level_2": [
+    {
+      "suku_kata": ["Se", "pa", "tu"],
+      "jawaban": "Sepatu"
+    },
+    {
+      "suku_kata": ["Se", "ko", "lah"],
+      "jawaban": "Sekolah"
+    },
+    {
+      "suku_kata": ["Be", "la", "jar"],
+      "jawaban": "Belajar"
+    },
+    {
+      "suku_kata": ["Me", "nu", "lis"],
+      "jawaban": "Menulis"
+    },
+    {
+      "suku_kata": ["Mem", "ba", "ca"],
+      "jawaban": "Membaca"
+    },
+    {
+      "suku_kata": ["Le", "ma", "ri"],
+      "jawaban": "Lemari"
+    },
+    {
+      "suku_kata": ["Jen", "de", "la"],
+      "jawaban": "Jendela"
+    },
+    {
+      "suku_kata": ["Pe", "la", "jar"],
+      "jawaban": "Pelajar"
+    },
+    {
+      "suku_kata": ["Se", "pe", "da"],
+      "jawaban": "Sepeda"
+    },
+    {
+      "suku_kata": ["Ke", "pa", "la"],
+      "jawaban": "Kepala"
+    },
+    {
+      "suku_kata": ["Ka", "me", "ra"],
+      "jawaban": "Kamera"
+    },
+    {
+      "suku_kata": ["Kom", "pu", "ter"],
+      "jawaban": "Komputer"
+    },
+    {
+      "suku_kata": ["Peng", "ga", "ris"],
+      "jawaban": "Penggaris"
+    },
+    {
+      "suku_kata": ["Ke", "ran", "jang"],
+      "jawaban": "Keranjang"
+    },
+    {
+      "suku_kata": ["Pe", "pa", "ya"],
+      "jawaban": "Pepaya"
+    }
+  ],
+  "level_3": [
+    {
+      "suku_kata": ["Ke", "se", "hat", "an"],
+      "jawaban": "Kesehatan"
+    },
+    {
+      "suku_kata": ["Pe", "me", "rin", "tah"],
+      "jawaban": "Pemerintah"
+    },
+    {
+      "suku_kata": ["E", "ko", "sis", "tem"],
+      "jawaban": "Ekosistem"
+    },
+    {
+      "suku_kata": ["Trans", "por", "ta", "si"],
+      "jawaban": "Transportasi"
+    },
+    {
+      "suku_kata": ["Ma", "sya", "ra", "kat"],
+      "jawaban": "Masyarakat"
+    },
+    {
+      "suku_kata": ["Pen", "di", "di", "kan"],
+      "jawaban": "Pendidikan"
+    },
+    {
+      "suku_kata": ["Tek", "no", "lo", "gi"],
+      "jawaban": "Teknologi"
+    },
+    {
+      "suku_kata": ["Te", "le", "vi", "si"],
+      "jawaban": "Televisi"
+    },
+    {
+      "suku_kata": ["Ke", "ber", "sih", "an"],
+      "jawaban": "Kebersihan"
+    },
+    {
+      "suku_kata": ["Pe", "ra", "tu", "ran"],
+      "jawaban": "Peraturan"
+    },
+    {
+      "suku_kata": ["Pe", "la", "ja", "ran"],
+      "jawaban": "Pelajaran"
+    },
+    {
+      "suku_kata": ["Pe", "nga", "la", "man"],
+      "jawaban": "Pengalaman"
+    },
+    {
+      "suku_kata": ["Mu", "sya", "wa", "rah"],
+      "jawaban": "Musyawarah"
+    },
+    {
+      "suku_kata": ["Ke", "a", "di", "lan"],
+      "jawaban": "Keadilan"
+    },
+    {
+      "suku_kata": ["Per", "be", "da", "an"],
+      "jawaban": "Perbedaan"
+    }
+  ]
+}
