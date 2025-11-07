@@ -387,14 +387,6 @@
         "userAdded": false
       },
       {
-        "file": "assets/papan kata 1.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "assets\\papan kata 1.png",
-        "smoothed": true,
-        "userAdded": false
-      },
-      {
         "file": "assets/balok_kata/kotak kosong.png",
         "kind": "image",
         "metadata": "",
@@ -504,6 +496,21 @@
         "kind": "json",
         "metadata": "",
         "name": "questions\\level_1.json",
+        "userAdded": false
+      },
+      {
+        "file": "assets/font/minecraft/Minecraft.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "assets\\font\\minecraft\\Minecraft.ttf",
+        "userAdded": false
+      },
+      {
+        "file": "assets/papan kata 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\papan kata 1.png",
+        "smoothed": true,
         "userAdded": false
       }
     ],
@@ -4758,11 +4765,46 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.724991619186868,
+        "zoomFactor": 0.4557117012030443,
         "windowMask": false,
         "selectedLayer": ""
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "papan_jawaban_group",
+          "objects": [
+            {
+              "name": "papan_pertanyaan"
+            },
+            {
+              "name": "kosa_kata_2"
+            },
+            {
+              "name": "blok_kata_in_slot"
+            },
+            {
+              "name": "jawaban_text"
+            },
+            {
+              "name": "slot"
+            }
+          ]
+        },
+        {
+          "name": "papan_score",
+          "objects": [
+            {
+              "name": "papan_skor"
+            },
+            {
+              "name": "score_counter"
+            },
+            {
+              "name": "Score_text"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "name": "questions",
@@ -4773,6 +4815,35 @@
           "name": "jawaban_akhir",
           "type": "string",
           "value": ""
+        },
+        {
+          "name": "kotak_terisi",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "current_question",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "animation",
+          "type": "array",
+          "children": [
+            {
+              "type": "number",
+              "value": 0
+            },
+            {
+              "type": "number",
+              "value": 0
+            }
+          ]
+        },
+        {
+          "name": "score",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -4804,22 +4875,6 @@
           "x": 259,
           "y": 0,
           "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
-          "layer": "",
-          "name": "papan_skor",
-          "persistentUuid": "95c6542f-0fdb-4fbd-a951-4af04a9d1242",
-          "width": 0,
-          "x": 13,
-          "y": -116,
-          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5082,6 +5137,55 @@
               "value": 1
             }
           ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "Score_text",
+          "persistentUuid": "4d56637f-b73e-4586-97ff-98506f777e95",
+          "width": 0,
+          "x": 34,
+          "y": -67,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "papan_skor",
+          "persistentUuid": "660ffe0a-53f7-4329-8ef2-e6b43770d0f6",
+          "width": 0,
+          "x": 13,
+          "y": -158,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 48,
+          "keepRatio": true,
+          "layer": "",
+          "name": "score_counter",
+          "persistentUuid": "a7bd37f3-3a8c-48a7-a3ae-4a8da1b13643",
+          "width": 60,
+          "x": 177,
+          "y": -67,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -5195,16 +5299,16 @@
                             "y": 0
                           },
                           {
-                            "x": 171,
+                            "x": 236,
                             "y": 0
                           },
                           {
-                            "x": 171,
-                            "y": 115
+                            "x": 236,
+                            "y": 158
                           },
                           {
                             "x": 0,
-                            "y": 115
+                            "y": 158
                           }
                         ]
                       ]
@@ -6605,7 +6709,12 @@
             }
           ],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
           "string": "text",
           "font": "assets\\font\\pixelmax\\Pixelmax-Regular.otf",
           "textAlignment": "center",
@@ -6637,16 +6746,123 @@
             "lineHeight": 0,
             "color": "255;255;255"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Score_text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "SCORE : ",
+          "font": "assets\\font\\minecraft\\Minecraft.ttf",
+          "textAlignment": "left",
+          "characterSize": 32,
+          "color": {
+            "b": 0,
+            "g": 204,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 6,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "SCORE : ",
+            "font": "assets\\font\\minecraft\\Minecraft.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 32,
+            "lineHeight": 0,
+            "color": "255;204;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "score_counter",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "00",
+          "font": "assets\\font\\minecraft\\Minecraft.ttf",
+          "textAlignment": "center",
+          "characterSize": 32,
+          "color": {
+            "b": 0,
+            "g": 204,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 6,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "00",
+            "font": "assets\\font\\minecraft\\Minecraft.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 32,
+            "lineHeight": 0,
+            "color": "255;204;0"
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
           {
-            "objectName": "papan_pertanyaan"
+            "folderName": "papan_skor",
+            "children": [
+              {
+                "objectName": "Score_text"
+              },
+              {
+                "objectName": "score_counter"
+              },
+              {
+                "objectName": "papan_skor"
+              }
+            ]
           },
           {
-            "objectName": "papan_skor"
+            "objectName": "papan_pertanyaan"
           },
           {
             "objectName": "slot"
@@ -6676,7 +6892,6 @@
       },
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -6708,10 +6923,10 @@
                 "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
               },
               "parameters": [
-                "papan_skor",
+                "papan_score",
                 "Tween",
                 "\"go down\"",
-                "0",
+                "papan_score.Y()+papan_skor.Height()",
                 "\"linear\"",
                 "1.5",
                 ""
@@ -6853,6 +7068,16 @@
                     },
                     {
                       "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "animation[index]",
+                        "=",
+                        "isi_warna[index]"
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "ArrayTools::Splice"
                       },
                       "parameters": [
@@ -6883,7 +7108,7 @@
                         "kosa_kata_1",
                         "Text",
                         "=",
-                        "questions[0].suku_kata[index]"
+                        "questions[current_question].suku_kata[index]"
                       ]
                     },
                     {
@@ -6977,6 +7202,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7146,6 +7372,125 @@
                                 "kosa_kata_1",
                                 ""
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "SetNumberVariable"
+                              },
+                              "parameters": [
+                                "kotak_terisi",
+                                "+",
+                                "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "DebuggerTools::ConsoleLog"
+                              },
+                              "parameters": [
+                                "\"kotak terisi: \"+kotak_terisi",
+                                "\"info\"",
+                                ""
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::ForEach",
+                              "object": "kosa_kata_2",
+                              "conditions": [],
+                              "actions": [],
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "NumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "kosa_kata_2",
+                                        "id",
+                                        "=",
+                                        "0"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetStringVariable"
+                                      },
+                                      "parameters": [
+                                        "kosa_kata_pilihan_1",
+                                        "=",
+                                        "kosa_kata_2.Text::Value()"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "NumberObjectVariable"
+                                      },
+                                      "parameters": [
+                                        "kosa_kata_2",
+                                        "id",
+                                        "=",
+                                        "1"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetStringVariable"
+                                      },
+                                      "parameters": [
+                                        "kosa_kata_pilihan_2",
+                                        "=",
+                                        "kosa_kata_2.Text::Value()"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetStringVariable"
+                                      },
+                                      "parameters": [
+                                        "jawaban_akhir",
+                                        "=",
+                                        "kosa_kata_pilihan_1+kosa_kata_pilihan_2"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "variables": [
+                            {
+                              "name": "kosa_kata_pilihan_1",
+                              "type": "string",
+                              "value": ""
+                            },
+                            {
+                              "name": "kosa_kata_pilihan_2",
+                              "type": "string",
+                              "value": ""
                             }
                           ]
                         }
@@ -7156,7 +7501,6 @@
               ]
             },
             {
-              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -7211,44 +7555,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "kosa_kata_2",
-              "conditions": [],
-              "actions": [],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "NumberObjectVariable"
-                      },
-                      "parameters": [
-                        "kosa_kata_2",
-                        "id",
-                        "=",
-                        "blok_kata_in_slot.id"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                      },
-                      "parameters": [
-                        "kosa_kata_2",
-                        "Text",
-                        "=",
-                        "blok_kata_in_slot.isi_text"
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -7258,6 +7564,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "move logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7426,39 +7733,684 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "variables": [
+          "conditions": [
             {
-              "name": "kosa_kata_pilihan_1",
-              "type": "string",
-              "value": "0"
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "kotak_terisi",
+                "=",
+                "2"
+              ]
             },
             {
-              "name": "kosa_kata_pilihan_2",
-              "type": "number",
-              "value": 0
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
             }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::ForEach",
-          "object": "kosa_kata_2",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          ],
           "actions": [
             {
               "type": {
                 "value": "DebuggerTools::ConsoleLog"
               },
               "parameters": [
-                "jawaban_akhir",
+                "ToJSON(animation)",
                 "\"info\"",
                 ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "kotak_terisi",
+                "=",
+                "0"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "jawaban_akhir",
+                    "=",
+                    "questions[current_question].jawaban"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "score",
+                        ">=",
+                        "5"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "score",
+                        "-",
+                        "5"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "kosa_kata_2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "kosa_kata_2",
+                        "Text",
+                        "=",
+                        "\"\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "blok_kata_in_slot"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "blok_kata_in_slot",
+                        "Animation",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "blok_spawner",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "blok_kata",
+                        "blok_spawner.X()",
+                        "blok_spawner.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "blok_kata",
+                        "id",
+                        "=",
+                        "blok_spawner.id"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "blok_kata",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                          },
+                          "parameters": [
+                            "blok_kata",
+                            "Animation",
+                            "=",
+                            "animation[index]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "kosa_kata_1",
+                            "blok_kata.X()",
+                            "blok_kata.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "kosa_kata_1",
+                            "Text",
+                            "=",
+                            "questions[current_question].suku_kata[index]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "kosa_kata_1",
+                            "id",
+                            "=",
+                            "blok_kata.id"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "index",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "name": "index",
+                      "type": "number",
+                      "value": 0
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "StringVariable"
+                  },
+                  "parameters": [
+                    "jawaban_akhir",
+                    "=",
+                    "questions[current_question].jawaban"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "jawaban_text",
+                    "Text",
+                    "=",
+                    "questions[current_question].jawaban"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "jawaban_text",
+                    "\"255;255;255\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "2"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "kosa_kata_2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "kosa_kata_2",
+                        "Text",
+                        "=",
+                        "\"\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "score",
+                        "+",
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "jawaban_text",
+                        "Text",
+                        "=",
+                        "\"??????????\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextObject::ChangeColor"
+                      },
+                      "parameters": [
+                        "jawaban_text",
+                        "\"54;54;54\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AjoutObjConcern"
+                      },
+                      "parameters": [
+                        "",
+                        "blok_kata_in_slot"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                      },
+                      "parameters": [
+                        "blok_kata_in_slot",
+                        "Animation",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "current_question",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "blok_spawner",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "blok_kata",
+                        "blok_spawner.X()",
+                        "blok_spawner.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberObjectVariable"
+                      },
+                      "parameters": [
+                        "blok_kata",
+                        "id",
+                        "=",
+                        "blok_spawner.id"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ArrayTools::Shuffle"
+                      },
+                      "parameters": [
+                        "",
+                        "isi_warna",
+                        ""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "blok_kata",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Once"
+                          },
+                          "parameters": []
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                          },
+                          "parameters": [
+                            "blok_kata",
+                            "Animation",
+                            "=",
+                            "isi_warna[index]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "animation[index]",
+                            "=",
+                            "isi_warna[index]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ArrayTools::Splice"
+                          },
+                          "parameters": [
+                            "",
+                            "isi_warna",
+                            "index",
+                            "1",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "kosa_kata_1",
+                            "blok_kata.X()",
+                            "blok_kata.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                          },
+                          "parameters": [
+                            "kosa_kata_1",
+                            "Text",
+                            "=",
+                            "questions[current_question].suku_kata[index]"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberObjectVariable"
+                          },
+                          "parameters": [
+                            "kosa_kata_1",
+                            "id",
+                            "=",
+                            "blok_kata.id"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "index",
+                            "+",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "variables": [
+                    {
+                      "folded": true,
+                      "name": "isi_warna",
+                      "type": "array",
+                      "children": [
+                        {
+                          "type": "number",
+                          "value": 0
+                        },
+                        {
+                          "type": "number",
+                          "value": 1
+                        },
+                        {
+                          "type": "number",
+                          "value": 2
+                        },
+                        {
+                          "type": "number",
+                          "value": 3
+                        },
+                        {
+                          "type": "number",
+                          "value": 4
+                        },
+                        {
+                          "type": "number",
+                          "value": 5
+                        },
+                        {
+                          "type": "number",
+                          "value": 6
+                        },
+                        {
+                          "type": "number",
+                          "value": 7
+                        },
+                        {
+                          "type": "number",
+                          "value": 8
+                        },
+                        {
+                          "type": "number",
+                          "value": 9
+                        }
+                      ]
+                    },
+                    {
+                      "name": "index",
+                      "type": "number",
+                      "value": 0
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "score",
+                "<",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "score_counter",
+                "Text",
+                "=",
+                "\"0\"+score"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "NumberVariable"
+              },
+              "parameters": [
+                "score",
+                "<",
+                "10"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "score_counter",
+                "Text",
+                "=",
+                "score"
               ]
             }
           ]
