@@ -1,62 +1,62 @@
 [
-    {
-      "suku_kata": ["Se", "pa", "tu"],
-      "jawaban": "Sepatu"
-    },
-    {
-      "suku_kata": ["Se", "ko", "lah"],
-      "jawaban": "Sekolah"
-    },
-    {
-      "suku_kata": ["Be", "la", "jar"],
-      "jawaban": "Belajar"
-    },
-    {
-      "suku_kata": ["Me", "nu", "lis"],
-      "jawaban": "Menulis"
-    },
-    {
-      "suku_kata": ["Mem", "ba", "ca"],
-      "jawaban": "Membaca"
-    },
-    {
-      "suku_kata": ["Le", "ma", "ri"],
-      "jawaban": "Lemari"
-    },
-    {
-      "suku_kata": ["Jen", "de", "la"],
-      "jawaban": "Jendela"
-    },
-    {
-      "suku_kata": ["Pe", "la", "jar"],
-      "jawaban": "Pelajar"
-    },
-    {
-      "suku_kata": ["Se", "pe", "da"],
-      "jawaban": "Sepeda"
-    },
-    {
-      "suku_kata": ["Ke", "pa", "la"],
-      "jawaban": "Kepala"
-    },
-    {
-      "suku_kata": ["Ka", "me", "ra"],
-      "jawaban": "Kamera"
-    },
-    {
-      "suku_kata": ["Kom", "pu", "ter"],
-      "jawaban": "Komputer"
-    },
-    {
-      "suku_kata": ["Peng", "ga", "ris"],
-      "jawaban": "Penggaris"
-    },
-    {
-      "suku_kata": ["Ke", "ran", "jang"],
-      "jawaban": "Keranjang"
-    },
-    {
-      "suku_kata": ["Pe", "pa", "ya"],
-      "jawaban": "Pepaya"
-    }
+  {
+    "suku_kata": ["Se", "pa", "tu", "rol", "gi", "taj"],
+    "jawaban": "Sepatu"
+  },
+  {
+    "suku_kata": ["Se", "ko", "lah", "bod", "mi", "ne"],
+    "jawaban": "Sekolah"
+  },
+  {
+    "suku_kata": ["Be", "la", "jar", "sow", "la", "di"],
+    "jawaban": "Belajar"
+  },
+  {
+    "suku_kata": ["Me", "nu", "lis", "kup", "rat", "we"],
+    "jawaban": "Menulis"
+  },
+  {
+    "suku_kata": ["Mem", "ba", "ca", "fi", "go", "hah"],
+    "jawaban": "Membaca"
+  },
+  {
+    "suku_kata": ["Le", "ma", "ri", "je", "por", "nu"],
+    "jawaban": "Lemari"
+  },
+  {
+    "suku_kata": ["Jen", "de", "la", "ka", "su", "bi"],
+    "jawaban": "Jendela"
+  },
+  {
+    "suku_kata": ["Pe", "la", "jar", "to", "re", "mi"],
+    "jawaban": "Pelajar"
+  },
+  {
+    "suku_kata": ["Se", "pe", "da", "fa", "so", "li"],
+    "jawaban": "Sepeda"
+  },
+  {
+    "suku_kata": ["Ke", "pa", "la", "du", "ne", "si"],
+    "jawaban": "Kepala"
+  },
+  {
+    "suku_kata": ["Ka", "me", "ra", "ti", "lob", "ba"],
+    "jawaban": "Kamera"
+  },
+  {
+    "suku_kata": ["Kom", "pu", "ter", "ger", "ma", "do"],
+    "jawaban": "Komputer"
+  },
+  {
+    "suku_kata": ["Peng", "ga", "ris", "wa", "nit", "ju"],
+    "jawaban": "Penggaris"
+  },
+  {
+    "suku_kata": ["Ke", "ran", "jang", "yo", "pal", "le"],
+    "jawaban": "Keranjang"
+  },
+  {
+    "suku_kata": ["Pe", "pa", "ya", "ru", "kis", "sa"],
+    "jawaban": "Pepaya"
+  }
   ]
