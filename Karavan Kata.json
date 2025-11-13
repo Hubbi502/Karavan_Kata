@@ -912,6 +912,46 @@
         "name": "assets\\reset 1.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "sound/Backsound/Backsound 1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Backsound\\Backsound 1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Sound Effect/Press Start.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Sound Effect\\Press Start.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Sound Effect/Back.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Sound Effect\\Back.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Sound Effect/Menu.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Sound Effect\\Menu.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4818,7 +4858,7 @@
       "name": "start_scene",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -4831,7 +4871,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4481978045410368,
+        "zoomFactor": 0.216073973238755,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -4991,6 +5031,243 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "button_setting",
+          "persistentUuid": "d4961122-9831-40f8-85df-c00afd90bf59",
+          "width": 0,
+          "x": 1131,
+          "y": -137,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pause",
+          "name": "papan_pause",
+          "persistentUuid": "c4780433-7fca-47d0-af99-aeac220f0299",
+          "width": 0,
+          "x": 1315,
+          "y": 8,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pause",
+          "name": "pause_text_title",
+          "persistentUuid": "544d3ac8-8e20-49d8-b97d-d20c89f263ff",
+          "width": 0,
+          "x": 1582,
+          "y": 108,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pause",
+          "name": "back_button",
+          "persistentUuid": "9b725e13-468c-4e6c-b679-c439c545c4ee",
+          "width": 0,
+          "x": 2287,
+          "y": 573,
+          "zOrder": 23,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pause",
+          "name": "menu_button",
+          "persistentUuid": "36d746e3-c7a5-4012-bdde-80bd583f930f",
+          "width": 0,
+          "x": 1363,
+          "y": 573,
+          "zOrder": 24,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pause",
+          "name": "coin_pause",
+          "persistentUuid": "2980e184-ac1b-4739-8c6d-aec999cb4178",
+          "width": 0,
+          "x": 2090,
+          "y": 190,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pause",
+          "name": "tanda_tanya",
+          "persistentUuid": "a33ae8ad-73d3-42d7-89ee-2902d30d46c5",
+          "width": 0,
+          "x": 2105,
+          "y": 389,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pause",
+          "name": "music",
+          "persistentUuid": "a6ec9c64-7587-459e-a1d9-4653e014e4eb",
+          "width": 0,
+          "x": 1526,
+          "y": 249,
+          "zOrder": 27,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pause",
+          "name": "sound",
+          "persistentUuid": "aca7da5b-7a16-445a-88b1-ad7aec097aa8",
+          "width": 0,
+          "x": 1526,
+          "y": 371,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pause",
+          "name": "tambah",
+          "persistentUuid": "31b960f2-c6a0-49f9-93c0-3f15bd32963d",
+          "width": 0,
+          "x": 1888,
+          "y": 280,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "belongs_to",
+              "type": "string",
+              "value": "music"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pause",
+          "name": "tambah",
+          "persistentUuid": "7e4cb293-6e60-4acc-ab40-f10bef82c8a3",
+          "width": 0,
+          "x": 1888,
+          "y": 399,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "belongs_to",
+              "type": "string",
+              "value": "sound"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pause",
+          "name": "kurang",
+          "persistentUuid": "4b30e55b-cf6a-44b1-87eb-d6d78f9b0e98",
+          "width": 0,
+          "x": 1446,
+          "y": 278,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "belongs_to",
+              "type": "string",
+              "value": "music"
+            }
+          ]
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "pause",
+          "name": "kurang",
+          "persistentUuid": "8594054a-0ceb-490e-af61-8d2fad8164b1",
+          "width": 0,
+          "x": 1446,
+          "y": 397,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": [
+            {
+              "name": "belongs_to",
+              "type": "string",
+              "value": "sound"
+            }
+          ]
         }
       ],
       "objects": [
@@ -5429,6 +5706,16 @@
                     "EllipseMovement",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "button_setting",
+                    "ButtonFSM",
+                    ""
+                  ]
                 }
               ],
               "events": [
@@ -5622,6 +5909,53 @@
                     "1.5",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                  },
+                  "parameters": [
+                    "button_setting",
+                    "Tween",
+                    "\"go down\"",
+                    "0",
+                    "\"linear\"",
+                    "1.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "button_setting",
+                    "Tween",
+                    "\"go down\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "button_setting",
+                    "ButtonFSM",
+                    "yes"
+                  ]
                 }
               ]
             },
@@ -5738,6 +6072,19 @@
           "actions": [
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Sound Effect\\Press Start.mp3",
+                "0",
+                "",
+                "setting.sound * 10",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
               },
               "parameters": [
@@ -5803,6 +6150,20 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "setting"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "sound_1"
         }
       ],
       "layers": [
@@ -5882,6 +6243,59 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "ui",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "pause",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -6035,7 +6449,7 @@
       "name": "loading_scene",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -6736,7 +7150,7 @@
       "name": "select_level",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -6749,7 +7163,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8700232859857373,
+        "zoomFactor": 0.5117784035210227,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -9435,7 +9849,7 @@
           "isLocked": false,
           "name": "transition",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -9534,7 +9948,7 @@
       "name": "level_1",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -9547,7 +9961,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5747931490002357,
+        "zoomFactor": 0.4557117012030524,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -9679,7 +10093,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "papan_pertanyaan",
           "persistentUuid": "848ac446-8909-44e6-8665-2a3102d8c106",
           "width": 0,
@@ -9712,7 +10126,7 @@
           "depth": 0,
           "height": 105,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "slot",
           "persistentUuid": "44daa031-5eab-4389-bf55-027d258b5896",
           "width": 105,
@@ -9729,7 +10143,7 @@
           "depth": 0,
           "height": 105,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "slot",
           "persistentUuid": "f6c21ba3-3c3c-4f16-ac83-34f7be7a283d",
           "width": 105,
@@ -9746,7 +10160,7 @@
           "depth": 4,
           "height": 50,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "jawaban_text",
           "persistentUuid": "8f23ef7b-eb5e-437b-8a6c-b7cf71b427ab",
           "width": 259,
@@ -9763,7 +10177,7 @@
           "depth": 0,
           "height": 101.15625,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kuda_hijau",
           "persistentUuid": "3212eee0-3b94-45a9-9db9-5f049920297e",
           "width": 332,
@@ -9791,7 +10205,7 @@
           "depth": 0,
           "height": 98.109375,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kuda_kuning",
           "persistentUuid": "0e96f59b-0797-4b5d-996f-6f7d16c47110",
           "width": 322,
@@ -9818,7 +10232,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "55998135-aaa5-47ab-8ab4-ec26fb78b8ef",
@@ -9841,7 +10255,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "a59580ff-90ff-496c-8bde-284778f06e3a",
@@ -9865,7 +10279,7 @@
           "depth": 2,
           "height": 106,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_kata_in_slot",
           "persistentUuid": "521a3246-d7f6-4839-a929-c83bd4dc2482",
           "width": 106,
@@ -9888,7 +10302,7 @@
           "depth": 2,
           "height": 105,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_kata_in_slot",
           "persistentUuid": "c24a66be-843c-4b28-80a9-bbdd5b594282",
           "width": 105,
@@ -9911,7 +10325,7 @@
           "depth": 1,
           "height": 168,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kosa_kata_2",
           "persistentUuid": "7de2c9d6-8981-4fbe-a644-6b6b3fbbe020",
           "width": 139,
@@ -9934,7 +10348,7 @@
           "depth": 1,
           "height": 187,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kosa_kata_2",
           "persistentUuid": "6f30eb9c-ce2f-43e1-8e9f-b945e9c364de",
           "width": 156,
@@ -10006,7 +10420,7 @@
           "depth": 1,
           "height": 64,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "menit_text",
           "persistentUuid": "55c00655-332d-4fc3-8f65-8162a8bd8c82",
           "width": 60,
@@ -10022,7 +10436,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "detik_text",
           "persistentUuid": "d1f72429-e787-43b5-85f6-570182211dcc",
           "width": 0,
@@ -10038,7 +10452,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "__",
           "persistentUuid": "e285eb25-cf28-473c-ab2a-3130fd5334c7",
           "width": 0,
@@ -10346,7 +10760,7 @@
           "depth": 0,
           "height": 101.23766816143498,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kuda_merah",
           "persistentUuid": "20f7d744-cf0a-43b0-8676-d66a3520f40d",
           "width": 332,
@@ -10368,7 +10782,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "27433ae6-9148-4584-b6a6-922be7bc5a59",
@@ -10397,7 +10811,7 @@
           "depth": 0,
           "height": 101.15625,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kuda_biru",
           "persistentUuid": "d732a3cf-ca54-4573-9133-dda0b6f9147d",
           "width": 332,
@@ -10419,7 +10833,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "f3fbdf30-33dd-425d-a21f-88b05a928df2",
@@ -10447,13 +10861,46 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "count-down",
+          "layer": "ui",
           "name": "reset_button",
           "persistentUuid": "fd38bb8c-d8c3-408d-beb9-8de9ef4b1e03",
           "width": 0,
           "x": 1193,
           "y": 632,
           "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 39,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "Karavan_tersisa_text",
+          "persistentUuid": "84d19f12-cd92-43ef-97e4-3b57c196401d",
+          "width": 287,
+          "x": 37,
+          "y": 180,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "ui",
+          "name": "Karavan_tersisa_counter",
+          "persistentUuid": "83ab1fcf-9933-4bf2-b709-4b046a323295",
+          "width": 0,
+          "x": 298,
+          "y": 178,
+          "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -12493,6 +12940,102 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Karavan_tersisa_text",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "KARAVAN TERISISA : ",
+          "font": "assets\\font\\minecraft\\Minecraft.ttf",
+          "textAlignment": "left",
+          "characterSize": 24,
+          "color": {
+            "b": 0,
+            "g": 204,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 6,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "KARAVAN TERISISA : ",
+            "font": "assets\\font\\minecraft\\Minecraft.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 24,
+            "lineHeight": 0,
+            "color": "255;204;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Karavan_tersisa_counter",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "00",
+          "font": "assets\\font\\minecraft\\Minecraft.ttf",
+          "textAlignment": "left",
+          "characterSize": 32,
+          "color": {
+            "b": 0,
+            "g": 204,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "0;0;0",
+            "outlineThickness": 6,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "00",
+            "font": "assets\\font\\minecraft\\Minecraft.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 32,
+            "lineHeight": 0,
+            "color": "255;204;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -12532,6 +13075,12 @@
             "children": [
               {
                 "objectName": "Score_text"
+              },
+              {
+                "objectName": "Karavan_tersisa_text"
+              },
+              {
+                "objectName": "Karavan_tersisa_counter"
               },
               {
                 "objectName": "score_counter"
@@ -12756,6 +13305,17 @@
             },
             {
               "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "\"kuda_kuda\"",
+                "\"blur\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
                 "value": "OpacityCapability::OpacityBehavior::SetValue"
               },
               "parameters": [
@@ -12910,7 +13470,7 @@
               "parameters": [
                 "result.karavan_terlewat",
                 "=",
-                "VariableChildCount(questions) *2"
+                "VariableChildCount(questions) *4"
               ]
             }
           ],
@@ -12936,7 +13496,7 @@
                     "blok_kata",
                     "blok_spawner.X()",
                     "blok_spawner.Y()",
-                    ""
+                    "\"kuda_kuda\""
                   ]
                 },
                 {
@@ -13063,7 +13623,7 @@
                         "kosa_kata_1",
                         "blok_kata.X()",
                         "blok_kata.Y()",
-                        ""
+                        "\"kuda_kuda\""
                       ]
                     },
                     {
@@ -13539,7 +14099,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "move logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -13555,7 +14114,7 @@
                   "parameters": [
                     "kuda_kuning",
                     "-",
-                    "2"
+                    "2*LayerTimeScale(\"kuda_kuda\")"
                   ]
                 },
                 {
@@ -13565,7 +14124,7 @@
                   "parameters": [
                     "kuda_biru",
                     "-",
-                    "2"
+                    "2*LayerTimeScale(\"kuda_kuda\")"
                   ]
                 },
                 {
@@ -13575,7 +14134,7 @@
                   "parameters": [
                     "kuda_hijau",
                     "+",
-                    "2"
+                    "2*LayerTimeScale(\"kuda_kuda\")"
                   ]
                 },
                 {
@@ -13585,7 +14144,7 @@
                   "parameters": [
                     "kuda_merah",
                     "+",
-                    "2"
+                    "2*LayerTimeScale(\"kuda_kuda\")"
                   ]
                 }
               ]
@@ -13632,7 +14191,7 @@
                   "parameters": [
                     "blok_spawner",
                     "+",
-                    "2"
+                    "2*LayerTimeScale(\"kuda_kuda\")"
                   ]
                 }
               ]
@@ -13679,7 +14238,7 @@
                   "parameters": [
                     "blok_spawner",
                     "-",
-                    "2"
+                    "2*LayerTimeScale(\"kuda_kuda\")"
                   ]
                 }
               ]
@@ -13730,6 +14289,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "benar salah logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14181,7 +14741,7 @@
                           "parameters": [
                             "result.karavan_terlewat",
                             "-",
-                            "2"
+                            "4"
                           ]
                         },
                         {
@@ -14538,6 +15098,17 @@
                     "\"count down\"",
                     ">=",
                     "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "LayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "\"kuda_kuda\"",
+                    "!=",
+                    "0"
                   ]
                 },
                 {
@@ -15077,6 +15648,62 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Karavan_tersisa_counter",
+                "Text",
+                "=",
+                "result.karavan_terlewat"
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "toggle_button",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ButtonStates::ButtonFSM::IsClicked"
+                  },
+                  "parameters": [
+                    "button_setting",
+                    "ButtonFSM",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "\"kuda_kuda\"",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
       ],
       "layers": [
@@ -15154,6 +15781,125 @@
               },
               "stringParameters": {},
               "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "kuda_kuda",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "KawaseBlur",
+              "name": "blur",
+              "doubleParameters": {
+                "blur": 4,
+                "padding": 0,
+                "pixelizeX": 1,
+                "pixelizeY": 1,
+                "quality": 4
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "ui",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
             }
           ]
         },
@@ -15424,7 +16170,7 @@
       "name": "level_2",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -15437,7 +16183,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6784640977071154,
+        "zoomFactor": 0.42646565834522393,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -15688,7 +16434,7 @@
           "depth": 0,
           "height": 101.15625,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda-kuda",
           "name": "kuda_hijau",
           "persistentUuid": "3212eee0-3b94-45a9-9db9-5f049920297e",
           "width": 332,
@@ -15716,7 +16462,7 @@
           "depth": 0,
           "height": 98.109375,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda-kuda",
           "name": "kuda_kuning",
           "persistentUuid": "0e96f59b-0797-4b5d-996f-6f7d16c47110",
           "width": 322,
@@ -15743,7 +16489,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda-kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "55998135-aaa5-47ab-8ab4-ec26fb78b8ef",
@@ -15766,7 +16512,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda-kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "a59580ff-90ff-496c-8bde-284778f06e3a",
@@ -16271,7 +17017,7 @@
           "depth": 0,
           "height": 101.23766816143498,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda-kuda",
           "name": "kuda_merah",
           "persistentUuid": "20f7d744-cf0a-43b0-8676-d66a3520f40d",
           "width": 332,
@@ -16293,7 +17039,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda-kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "27433ae6-9148-4584-b6a6-922be7bc5a59",
@@ -16322,7 +17068,7 @@
           "depth": 0,
           "height": 101.15625,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda-kuda",
           "name": "kuda_biru",
           "persistentUuid": "d732a3cf-ca54-4573-9133-dda0b6f9147d",
           "width": 332,
@@ -16344,7 +17090,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda-kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "f3fbdf30-33dd-425d-a21f-88b05a928df2",
@@ -16373,7 +17119,7 @@
           "depth": 0,
           "height": 98.109375,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda-kuda",
           "name": "kuda_kuning",
           "persistentUuid": "fee442ca-e789-4d2a-838f-6001b6ebae7e",
           "width": 322,
@@ -16395,9 +17141,9 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda-kuda",
           "name": "blok_spawner",
-          "opacity": 77,
+          "opacity": 0,
           "persistentUuid": "fc92de47-1c72-47ce-a22e-e1fc4f3085a2",
           "width": 0,
           "x": 890,
@@ -16419,7 +17165,7 @@
           "depth": 0,
           "height": 101.15625,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda-kuda",
           "name": "kuda_hijau",
           "persistentUuid": "36b9f36b-60da-48dd-a4db-29a115b384cd",
           "width": 332,
@@ -16441,9 +17187,9 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda-kuda",
           "name": "blok_spawner",
-          "opacity": 77,
+          "opacity": 0,
           "persistentUuid": "74ea6b7b-ca8e-4729-95c9-4cfca2d92f4e",
           "width": 0,
           "x": 1086,
@@ -16540,6 +17286,22 @@
           "x": 1217,
           "y": 653,
           "zOrder": 42,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "kuda-kuda",
+          "name": "reset_button",
+          "persistentUuid": "b589fea3-4673-474c-8896-d219f65f1c35",
+          "width": 0,
+          "x": 1192,
+          "y": 629,
+          "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -18716,6 +19478,17 @@
             },
             {
               "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "\"kuda-kuda\"",
+                "\"blur\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -18806,6 +19579,17 @@
               "parameters": [
                 "",
                 "",
+                "\"blur\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "\"kuda-kuda\"",
                 "\"blur\"",
                 "no"
               ]
@@ -18992,7 +19776,7 @@
                     "blok_kata",
                     "blok_spawner.X()",
                     "blok_spawner.Y()",
-                    ""
+                    "\"kuda-kuda\""
                   ]
                 },
                 {
@@ -19119,7 +19903,7 @@
                         "kosa_kata_1",
                         "blok_kata.X()",
                         "blok_kata.Y()",
-                        ""
+                        "\"kuda-kuda\""
                       ]
                     },
                     {
@@ -19219,7 +20003,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "collission logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19637,7 +20420,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "move logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -19653,7 +20435,7 @@
                   "parameters": [
                     "kuda_kuning",
                     "-",
-                    "2"
+                    "2*LayerTimeScale(\"kuda_kuda\")"
                   ]
                 },
                 {
@@ -19663,7 +20445,7 @@
                   "parameters": [
                     "kuda_biru",
                     "-",
-                    "2"
+                    "2*LayerTimeScale(\"kuda_kuda\")"
                   ]
                 },
                 {
@@ -19673,7 +20455,7 @@
                   "parameters": [
                     "kuda_hijau",
                     "+",
-                    "2"
+                    "2*LayerTimeScale(\"kuda_kuda\")"
                   ]
                 },
                 {
@@ -19683,7 +20465,7 @@
                   "parameters": [
                     "kuda_merah",
                     "+",
-                    "2"
+                    "2*LayerTimeScale(\"kuda_kuda\")"
                   ]
                 }
               ]
@@ -19894,7 +20676,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "benar salah logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21325,9 +22106,128 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "blur",
+          "name": "kuda-kuda",
           "renderingType": "",
           "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            },
+            {
+              "effectType": "KawaseBlur",
+              "name": "blur",
+              "doubleParameters": {
+                "blur": 4,
+                "padding": 0,
+                "pixelizeX": 1,
+                "pixelizeY": 1,
+                "quality": 4
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "ui",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "blur",
+          "renderingType": "",
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -21380,7 +22280,7 @@
           "isLocked": false,
           "name": "pause",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -21433,7 +22333,7 @@
           "isLocked": false,
           "name": "count-down",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -21486,7 +22386,7 @@
           "isLocked": false,
           "name": "transition",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -21581,7 +22481,7 @@
       "name": "level_3",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -21594,7 +22494,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5033839366309939,
+        "zoomFactor": 0.3990965280630108,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -21845,7 +22745,7 @@
           "depth": 0,
           "height": 101.15625,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kuda_hijau",
           "persistentUuid": "3212eee0-3b94-45a9-9db9-5f049920297e",
           "width": 332,
@@ -21873,7 +22773,7 @@
           "depth": 0,
           "height": 98.109375,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kuda_kuning",
           "persistentUuid": "0e96f59b-0797-4b5d-996f-6f7d16c47110",
           "width": 322,
@@ -21900,7 +22800,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "55998135-aaa5-47ab-8ab4-ec26fb78b8ef",
@@ -21923,7 +22823,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "a59580ff-90ff-496c-8bde-284778f06e3a",
@@ -22428,7 +23328,7 @@
           "depth": 0,
           "height": 101.23766816143498,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kuda_merah",
           "persistentUuid": "20f7d744-cf0a-43b0-8676-d66a3520f40d",
           "width": 332,
@@ -22450,7 +23350,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "27433ae6-9148-4584-b6a6-922be7bc5a59",
@@ -22479,7 +23379,7 @@
           "depth": 0,
           "height": 101.15625,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kuda_biru",
           "persistentUuid": "d732a3cf-ca54-4573-9133-dda0b6f9147d",
           "width": 332,
@@ -22501,7 +23401,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "f3fbdf30-33dd-425d-a21f-88b05a928df2",
@@ -22530,7 +23430,7 @@
           "depth": 0,
           "height": 98.109375,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kuda_kuning",
           "persistentUuid": "fee442ca-e789-4d2a-838f-6001b6ebae7e",
           "width": 322,
@@ -22552,7 +23452,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "fc92de47-1c72-47ce-a22e-e1fc4f3085a2",
@@ -22576,7 +23476,7 @@
           "depth": 0,
           "height": 101.15625,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kuda_hijau",
           "persistentUuid": "36b9f36b-60da-48dd-a4db-29a115b384cd",
           "width": 332,
@@ -22598,7 +23498,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "74ea6b7b-ca8e-4729-95c9-4cfca2d92f4e",
@@ -22627,7 +23527,7 @@
           "depth": 0,
           "height": 101.15625,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kuda_merah",
           "persistentUuid": "4d9f67db-d74f-45ce-ae0d-2abb007d14af",
           "width": 332,
@@ -22649,7 +23549,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "8679d48a-3d03-4ea7-8261-22b2974ac7c2",
@@ -22673,7 +23573,7 @@
           "depth": 0,
           "height": 101.15625,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "kuda_biru",
           "persistentUuid": "8cafca4e-0f87-42e2-92da-b3865212471e",
           "width": 332,
@@ -22695,7 +23595,7 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "",
+          "layer": "kuda_kuda",
           "name": "blok_spawner",
           "opacity": 0,
           "persistentUuid": "135c58c0-59c5-4bd0-b728-985491c309ce",
@@ -24447,6 +25347,17 @@
             },
             {
               "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "\"kuda_kuda\"",
+                "\"blur\"",
+                "yes"
+              ]
+            },
+            {
+              "type": {
                 "value": "ActivateBehavior"
               },
               "parameters": [
@@ -24537,6 +25448,17 @@
               "parameters": [
                 "",
                 "",
+                "\"blur\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "\"kuda_kuda\"",
                 "\"blur\"",
                 "no"
               ]
@@ -24723,7 +25645,7 @@
                     "blok_kata",
                     "blok_spawner.X()",
                     "blok_spawner.Y()",
-                    ""
+                    "\"kuda_kuda\""
                   ]
                 },
                 {
@@ -24850,7 +25772,7 @@
                         "kosa_kata_1",
                         "blok_kata.X()",
                         "blok_kata.Y()",
-                        ""
+                        "\"kuda_kuda\""
                       ]
                     },
                     {
@@ -25405,7 +26327,7 @@
                   "parameters": [
                     "kuda_kuning",
                     "-",
-                    "2"
+                    "2 * LayerTimeScale(\"kuda_kuda\")"
                   ]
                 },
                 {
@@ -25415,7 +26337,7 @@
                   "parameters": [
                     "kuda_biru",
                     "-",
-                    "2"
+                    "2 * LayerTimeScale(\"kuda_kuda\")"
                   ]
                 },
                 {
@@ -25425,7 +26347,7 @@
                   "parameters": [
                     "kuda_hijau",
                     "+",
-                    "2"
+                    "2 * LayerTimeScale(\"kuda_kuda\")"
                   ]
                 },
                 {
@@ -25435,7 +26357,7 @@
                   "parameters": [
                     "kuda_merah",
                     "+",
-                    "2"
+                    "2 * LayerTimeScale(\"kuda_kuda\")"
                   ]
                 }
               ]
@@ -26981,6 +27903,72 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "kuda_kuda",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "KawaseBlur",
+              "name": "blur",
+              "doubleParameters": {
+                "blur": 4,
+                "padding": 0,
+                "pixelizeX": 1,
+                "pixelizeY": 1,
+                "quality": 4
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "blur",
           "renderingType": "",
           "visibility": true,
@@ -27237,7 +28225,7 @@
       "name": "end_scene",
       "r": 209,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
       "v": 209,
       "uiSettings": {
@@ -29346,6 +30334,16 @@
                 },
                 {
                   "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "\"kuda_kuda\"",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ActivateBehavior"
                   },
                   "parameters": [
@@ -29361,6 +30359,17 @@
                   "parameters": [
                     "",
                     "",
+                    "\"blur\"",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "\"kuda_kuda\"",
                     "\"blur\"",
                     "yes"
                   ]
@@ -29438,6 +30447,19 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Sound Effect\\Back.mp3",
+                    "0",
+                    "",
+                    "setting.sound * 10",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
                   },
                   "parameters": [
@@ -29487,6 +30509,19 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Sound Effect\\Menu.mp3",
+                    "0",
+                    "",
+                    "setting.sound * 10",
+                    "1"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionXTween2"
@@ -29570,11 +30605,32 @@
                 },
                 {
                   "type": {
+                    "value": "ChangeLayerTimeScale"
+                  },
+                  "parameters": [
+                    "",
+                    "\"kuda_kuda\"",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "EnableLayerEffect"
                   },
                   "parameters": [
                     "",
                     "",
+                    "\"blur\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EnableLayerEffect"
+                  },
+                  "parameters": [
+                    "",
+                    "\"kuda_kuda\"",
                     "\"blur\"",
                     "no"
                   ]
@@ -29596,7 +30652,6 @@
               "colorG": 176,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "music and sound",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -29686,6 +30741,28 @@
                                 "+",
                                 "1"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0",
+                                "=",
+                                "setting.sound *10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1",
+                                "=",
+                                "setting.sound *10"
+                              ]
                             }
                           ]
                         }
@@ -29731,6 +30808,17 @@
                                 "setting.music",
                                 "+",
                                 "1"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0",
+                                "=",
+                                "setting.music *10"
                               ]
                             }
                           ]
@@ -29796,6 +30884,28 @@
                                 "-",
                                 "1"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1",
+                                "=",
+                                "setting.sound *10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0",
+                                "=",
+                                "setting.sound *10"
+                              ]
                             }
                           ]
                         }
@@ -29842,6 +30952,17 @@
                                 "-",
                                 "1"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "0",
+                                "=",
+                                "setting.music *10"
+                              ]
                             }
                           ]
                         }
@@ -29854,6 +30975,68 @@
             }
           ],
           "parameters": []
+        }
+      ]
+    },
+    {
+      "associatedLayout": "start_scene",
+      "name": "sound_1",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "MusicPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Backsound\\Backsound 1.mp3",
+                    "0",
+                    "yes",
+                    "setting.music * 10",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
