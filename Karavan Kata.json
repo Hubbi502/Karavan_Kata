@@ -952,6 +952,130 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "sound/Sound Effect/Kuda dan Gerobak/Kuda & Gerobak 1.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Sound Effect\\Kuda dan Gerobak\\Kuda & Gerobak 1.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Sound Effect/Kuda dan Gerobak/Kuda & Gerobak 2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Sound Effect\\Kuda dan Gerobak\\Kuda & Gerobak 2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Sound Effect/Setting.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Sound Effect\\Setting.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Sound Effect/Klik Level.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Sound Effect\\Klik Level.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Sound Effect/Loading.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Sound Effect\\Loading.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Sound Effect/Hitung Mundur (321GO).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Sound Effect\\Hitung Mundur (321GO).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Sound Effect/Drag Jawaban (Ambil).mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Sound Effect\\Drag Jawaban (Ambil).mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Sound Effect/Poin Plus.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Sound Effect\\Poin Plus.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Sound Effect/Poin Minus.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Sound Effect\\Poin Minus.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "sound/Sound Effect/Reset.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "sound\\Sound Effect\\Reset.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4655,6 +4779,300 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "benar_objek",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "salah_objek",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 0
+                      },
+                      {
+                        "x": 1280,
+                        "y": 720
+                      },
+                      {
+                        "x": 0,
+                        "y": 720
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "spawner_score_benar_salah",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "score_tambah",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "10+",
+      "font": "assets\\font\\minecraft\\Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 32,
+      "color": {
+        "b": 55,
+        "g": 255,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 6,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "10+",
+        "font": "assets\\font\\minecraft\\Minecraft.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 32,
+        "lineHeight": 0,
+        "color": "0;255;55"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "score_kurang",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Tween",
+          "type": "Tween::TweenBehavior"
+        }
+      ],
+      "string": "5-",
+      "font": "assets\\font\\minecraft\\Minecraft.ttf",
+      "textAlignment": "left",
+      "characterSize": 32,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": true,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "0;0;0",
+        "outlineThickness": 6,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "5-",
+        "font": "assets\\font\\minecraft\\Minecraft.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 32,
+        "lineHeight": 0,
+        "color": "255;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4732,6 +5150,21 @@
       },
       {
         "objectName": "reset_button"
+      },
+      {
+        "objectName": "benar_objek"
+      },
+      {
+        "objectName": "salah_objek"
+      },
+      {
+        "objectName": "spawner_score_benar_salah"
+      },
+      {
+        "objectName": "score_tambah"
+      },
+      {
+        "objectName": "score_kurang"
       }
     ]
   },
@@ -4871,7 +5304,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.216073973238755,
+        "zoomFactor": 0.25504554733543483,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -5716,6 +6149,19 @@
                     "ButtonFSM",
                     ""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Sound Effect\\Kuda dan Gerobak\\Kuda & Gerobak 2.mp3",
+                    "0",
+                    "",
+                    "setting.sound * 10",
+                    "1"
+                  ]
                 }
               ],
               "events": [
@@ -6163,7 +6609,7 @@
           "include": {
             "includeConfig": 0
           },
-          "target": "sound_1"
+          "target": "music_1"
         }
       ],
       "layers": [
@@ -6890,6 +7336,19 @@
                 "1.5",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Sound Effect\\Loading.mp3",
+                "0",
+                "",
+                "setting.sound * 10",
+                "1"
+              ]
             }
           ]
         },
@@ -6914,6 +7373,15 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PauseSoundCanal"
+              },
+              "parameters": [
+                "",
+                "0"
+              ]
+            },
             {
               "type": {
                 "value": "AnimatableCapability::AnimatableBehavior::SetName"
@@ -6945,6 +7413,15 @@
               },
               "parameters": [
                 "5"
+              ]
+            },
+            {
+              "type": {
+                "value": "RePlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "0"
               ]
             },
             {
@@ -7028,6 +7505,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "music_1"
         }
       ],
       "layers": [
@@ -7163,7 +7652,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210227,
+        "zoomFactor": 0.49508400737489383,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -9134,6 +9623,19 @@
                 "ButtonFSM",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Sound Effect\\Klik Level.mp3",
+                "0",
+                "",
+                "setting.sound * 10",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -9663,6 +10165,18 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "music_1"
         }
       ],
       "layers": [
@@ -9849,7 +10363,7 @@
           "isLocked": false,
           "name": "transition",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -9961,7 +10475,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.4557117012030524,
+        "zoomFactor": 0.9771483533004046,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -9977,6 +10491,9 @@
             },
             {
               "name": "Score_text"
+            },
+            {
+              "name": "spawner_score_benar_salah"
             }
           ]
         },
@@ -10727,22 +11244,6 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "count-down",
-          "name": "next_button",
-          "persistentUuid": "3aaa23ad-bbfd-4e42-8279-ac563e8f4cf1",
-          "width": 0,
-          "x": -3,
-          "y": 659,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
           "layer": "transition",
           "name": "transition",
           "persistentUuid": "93d0346f-a896-45fd-ab00-da99586e3786",
@@ -10875,15 +11376,16 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 39,
+          "depth": 0,
+          "height": 23,
           "keepRatio": true,
-          "layer": "ui",
-          "name": "Karavan_tersisa_text",
-          "persistentUuid": "84d19f12-cd92-43ef-97e4-3b57c196401d",
-          "width": 287,
-          "x": 37,
-          "y": 180,
+          "layer": "",
+          "name": "spawner_score_benar_salah",
+          "opacity": 0,
+          "persistentUuid": "8b522484-076f-4b67-b0cd-dd14dcaa4a1f",
+          "width": 23,
+          "x": 219,
+          "y": -86,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -10894,13 +11396,31 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "ui",
-          "name": "Karavan_tersisa_counter",
-          "persistentUuid": "83ab1fcf-9933-4bf2-b709-4b046a323295",
+          "layer": "benar",
+          "name": "benar_objek",
+          "opacity": 0,
+          "persistentUuid": "63b97911-2196-4ad0-868a-be73febc83f6",
           "width": 0,
-          "x": 298,
-          "y": 178,
+          "x": 3,
+          "y": -2,
           "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "salah",
+          "name": "salah_objek",
+          "opacity": 0,
+          "persistentUuid": "57128855-7c74-4c41-99c8-e178c931f5e2",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 45,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13109,6 +13629,7 @@
       },
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -13198,6 +13719,19 @@
             },
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Sound Effect\\Hitung Mundur (321GO).mp3",
+                "0",
+                "",
+                "setting.sound * 10",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "EnableLayerEffect"
               },
               "parameters": [
@@ -13222,7 +13756,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "0.8"
               ]
             },
             {
@@ -13241,7 +13775,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "0.8"
               ]
             },
             {
@@ -13260,7 +13794,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "0.8"
               ]
             },
             {
@@ -13279,6 +13813,19 @@
                 "value": "Wait"
               },
               "parameters": [
+                "0.8"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Sound Effect\\Kuda dan Gerobak\\Kuda & Gerobak 2.mp3",
+                "1",
+                "yes",
+                "setting.sound",
                 "1"
               ]
             },
@@ -13728,6 +14275,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -13740,7 +14288,21 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Sound Effect\\Drag Jawaban (Ambil).mp3",
+                    "0",
+                    "",
+                    "setting.sound * 10",
+                    "1"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -14040,6 +14602,42 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "blok_kata",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Sound Effect\\Drag Jawaban (Ambil).mp3",
+                    "0",
+                    "",
+                    "setting.sound * 10",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "inverted": true,
                     "value": "DraggableBehavior::Dragged"
                   },
@@ -14099,6 +14697,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "move logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14295,6 +14894,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -14338,7 +14938,6 @@
               ],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -14362,10 +14961,29 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Wait"
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                       },
                       "parameters": [
-                        "2"
+                        "salah_objek",
+                        "Tween",
+                        "\"go show\"",
+                        "80",
+                        "\"linear\"",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Sound Effect\\Poin Minus.mp3",
+                        "0",
+                        "",
+                        "setting.sound * 10",
+                        "1"
                       ]
                     }
                   ],
@@ -14393,6 +15011,32 @@
                             "result.score",
                             "-",
                             "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "score_kurang",
+                            "spawner_score_benar_salah.X()",
+                            "spawner_score_benar_salah.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "score_kurang",
+                            "Tween",
+                            "\"go up\"",
+                            "-48",
+                            "\"linear\"",
+                            "1.5",
+                            "yes"
                           ]
                         }
                       ]
@@ -14497,7 +15141,7 @@
                             "blok_kata",
                             "blok_spawner.X()",
                             "blok_spawner.Y()",
-                            ""
+                            "\"kuda_kuda\""
                           ]
                         },
                         {
@@ -14550,7 +15194,7 @@
                                 "kosa_kata_1",
                                 "blok_kata.X()",
                                 "blok_kata.Y()",
-                                ""
+                                "\"kuda_kuda\""
                               ]
                             },
                             {
@@ -14621,6 +15265,20 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "benar_objek",
+                        "Tween",
+                        "\"go show\"",
+                        "80",
+                        "\"linear\"",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                       },
                       "parameters": [
@@ -14641,10 +15299,41 @@
                     },
                     {
                       "type": {
-                        "value": "Wait"
+                        "value": "PlaySoundCanal"
                       },
                       "parameters": [
-                        "2"
+                        "",
+                        "sound\\Sound Effect\\Poin Plus.mp3",
+                        "0",
+                        "",
+                        "setting.sound * 10",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "score_tambah",
+                        "spawner_score_benar_salah.X()",
+                        "spawner_score_benar_salah.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "score_tambah",
+                        "Tween",
+                        "\"go up\"",
+                        "-48",
+                        "\"linear\"",
+                        "1.5",
+                        "yes"
                       ]
                     }
                   ],
@@ -14834,7 +15523,7 @@
                             "blok_kata",
                             "blok_spawner.X()",
                             "blok_spawner.Y()",
-                            ""
+                            "\"kuda_kuda\""
                           ]
                         },
                         {
@@ -14920,7 +15609,7 @@
                                 "kosa_kata_1",
                                 "blok_kata.X()",
                                 "blok_kata.Y()",
-                                ""
+                                "\"kuda_kuda\""
                               ]
                             },
                             {
@@ -15022,6 +15711,80 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "benar_objek",
+                    "Tween",
+                    "\"go show\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "benar_objek",
+                    "Tween",
+                    "\"go hide\"",
+                    "0",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "salah_objek",
+                    "Tween",
+                    "\"go show\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "salah_objek",
+                    "Tween",
+                    "\"go hide\"",
+                    "0",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "NumberVariable"
                   },
                   "parameters": [
@@ -15082,6 +15845,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "timer logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15380,6 +16144,7 @@
           ]
         },
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -15393,7 +16158,21 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Sound Effect\\Reset.mp3",
+                "0",
+                "setting.sound*10",
+                "setting.sound * 10",
+                "1"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -15671,6 +16450,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "toggle_button",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -15704,6 +16484,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "music_2"
         }
       ],
       "layers": [
@@ -16075,7 +16862,113 @@
           "isLocked": false,
           "name": "transition",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "benar",
+          "renderingType": "",
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "salah",
+          "renderingType": "",
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
@@ -16183,7 +17076,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.42646565834522393,
+        "zoomFactor": 0.8846089555231751,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -16984,22 +17877,6 @@
           "customSize": false,
           "height": 0,
           "keepRatio": true,
-          "layer": "count-down",
-          "name": "next_button",
-          "persistentUuid": "3aaa23ad-bbfd-4e42-8279-ac563e8f4cf1",
-          "width": 0,
-          "x": -3,
-          "y": 659,
-          "zOrder": 33,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "keepRatio": true,
           "layer": "transition",
           "name": "transition",
           "persistentUuid": "93d0346f-a896-45fd-ab00-da99586e3786",
@@ -17275,23 +18152,6 @@
         },
         {
           "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 67,
-          "keepRatio": true,
-          "layer": "count-down",
-          "name": "reset_button",
-          "persistentUuid": "4cce6d99-1065-4cae-91ad-1131258419e9",
-          "width": 64,
-          "x": 1217,
-          "y": 653,
-          "zOrder": 42,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
           "customSize": false,
           "height": 0,
           "keepRatio": true,
@@ -17301,6 +18161,58 @@
           "width": 0,
           "x": 1192,
           "y": 629,
+          "zOrder": 43,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "benar",
+          "name": "benar_objek",
+          "opacity": 0,
+          "persistentUuid": "bbb70784-0cb7-4597-8718-ec368999ef2f",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 44,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "salah",
+          "name": "salah_objek",
+          "opacity": 0,
+          "persistentUuid": "25d91404-852e-4294-aa40-c551c9adfb64",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": 45,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 23,
+          "keepRatio": true,
+          "layer": "",
+          "name": "spawner_score_benar_salah",
+          "opacity": 0,
+          "persistentUuid": "6fb78780-654c-46f7-a29a-66afafc7821c",
+          "width": 23,
+          "x": 219,
+          "y": -86,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -19408,6 +20320,7 @@
       },
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -19467,6 +20380,19 @@
             },
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Sound Effect\\Hitung Mundur (321GO).mp3",
+                "0",
+                "",
+                "setting.sound * 10",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "EnableLayerEffect"
               },
               "parameters": [
@@ -19502,7 +20428,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "0.8"
               ]
             },
             {
@@ -19521,7 +20447,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "0.8"
               ]
             },
             {
@@ -19540,7 +20466,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "0.8"
               ]
             },
             {
@@ -19559,6 +20485,19 @@
                 "value": "Wait"
               },
               "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Sound Effect\\Kuda dan Gerobak\\Kuda & Gerobak 2.mp3",
+                "1",
+                "yes",
+                "setting.sound",
                 "1"
               ]
             },
@@ -20012,6 +20951,42 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "blok_kata",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Sound Effect\\Drag Jawaban (Ambil).mp3",
+                    "0",
+                    "",
+                    "setting.sound * 10",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "DraggableBehavior::Dropped"
                   },
                   "parameters": [
@@ -20020,7 +20995,21 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Sound Effect\\Drag Jawaban (Ambil).mp3",
+                    "0",
+                    "",
+                    "setting.sound * 10",
+                    "1"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -20349,6 +21338,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -20420,6 +21410,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "move logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -20676,11 +21667,13 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "benar salah logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -20724,7 +21717,6 @@
               ],
               "events": [
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -20748,10 +21740,29 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "Wait"
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
                       },
                       "parameters": [
-                        "2"
+                        "salah_objek",
+                        "Tween",
+                        "\"go show\"",
+                        "80",
+                        "\"linear\"",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Sound Effect\\Poin Minus.mp3",
+                        "0",
+                        "",
+                        "setting.sound * 10",
+                        "1"
                       ]
                     }
                   ],
@@ -20779,6 +21790,32 @@
                             "result.score",
                             "-",
                             "5"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Create"
+                          },
+                          "parameters": [
+                            "",
+                            "score_kurang",
+                            "spawner_score_benar_salah.X()",
+                            "spawner_score_benar_salah.Y()",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "score_kurang",
+                            "Tween",
+                            "\"go up\"",
+                            "-48",
+                            "\"linear\"",
+                            "1.5",
+                            "yes"
                           ]
                         }
                       ]
@@ -20883,7 +21920,7 @@
                             "blok_kata",
                             "blok_spawner.X()",
                             "blok_spawner.Y()",
-                            ""
+                            "\"kuda_kuda\""
                           ]
                         },
                         {
@@ -20936,7 +21973,7 @@
                                 "kosa_kata_1",
                                 "blok_kata.X()",
                                 "blok_kata.Y()",
-                                ""
+                                "\"kuda_kuda\""
                               ]
                             },
                             {
@@ -20985,7 +22022,6 @@
                   ]
                 },
                 {
-                  "folded": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -21008,6 +22044,20 @@
                   "actions": [
                     {
                       "type": {
+                        "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                      },
+                      "parameters": [
+                        "benar_objek",
+                        "Tween",
+                        "\"go show\"",
+                        "80",
+                        "\"linear\"",
+                        "0.5",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                       },
                       "parameters": [
@@ -21028,10 +22078,41 @@
                     },
                     {
                       "type": {
-                        "value": "Wait"
+                        "value": "PlaySoundCanal"
                       },
                       "parameters": [
-                        "2"
+                        "",
+                        "sound\\Sound Effect\\Poin Plus.mp3",
+                        "0",
+                        "",
+                        "setting.sound * 10",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "score_tambah",
+                        "spawner_score_benar_salah.X()",
+                        "spawner_score_benar_salah.Y()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "score_tambah",
+                        "Tween",
+                        "\"go up\"",
+                        "-48",
+                        "\"linear\"",
+                        "1.5",
+                        "yes"
                       ]
                     }
                   ],
@@ -21128,7 +22209,7 @@
                           "parameters": [
                             "result.karavan_terlewat",
                             "-",
-                            "2"
+                            "4"
                           ]
                         },
                         {
@@ -21149,6 +22230,16 @@
                           "parameters": [
                             "jawaban_text",
                             "\"54;54;54\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetNumberVariable"
+                          },
+                          "parameters": [
+                            "jumlah_karavaan",
+                            "+",
+                            "1"
                           ]
                         }
                       ]
@@ -21211,7 +22302,7 @@
                             "blok_kata",
                             "blok_spawner.X()",
                             "blok_spawner.Y()",
-                            ""
+                            "\"kuda_kuda\""
                           ]
                         },
                         {
@@ -21297,7 +22388,7 @@
                                 "kosa_kata_1",
                                 "blok_kata.X()",
                                 "blok_kata.Y()",
-                                ""
+                                "\"kuda_kuda\""
                               ]
                             },
                             {
@@ -21399,6 +22490,80 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "benar_objek",
+                    "Tween",
+                    "\"go show\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "benar_objek",
+                    "Tween",
+                    "\"go hide\"",
+                    "0",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Tween::HasFinished"
+                  },
+                  "parameters": [
+                    "salah_objek",
+                    "Tween",
+                    "\"go show\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Tween::TweenBehavior::AddObjectOpacityTween2"
+                  },
+                  "parameters": [
+                    "salah_objek",
+                    "Tween",
+                    "\"go hide\"",
+                    "0",
+                    "\"linear\"",
+                    "0.5",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "NumberVariable"
                   },
                   "parameters": [
@@ -21459,6 +22624,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "timer logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -21766,7 +22932,21 @@
               ]
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Sound Effect\\Kuda dan Gerobak\\Kuda & Gerobak 2.mp3",
+                "1",
+                "yes",
+                "setting.sound",
+                "1"
+              ]
+            }
+          ],
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -22227,7 +23407,7 @@
           "isLocked": false,
           "name": "blur",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -22280,7 +23460,7 @@
           "isLocked": false,
           "name": "pause",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -22333,7 +23513,7 @@
           "isLocked": false,
           "name": "count-down",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -22386,7 +23566,113 @@
           "isLocked": false,
           "name": "transition",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "benar",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "salah",
+          "renderingType": "",
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -22494,7 +23780,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3990965280630108,
+        "zoomFactor": 0.29610819801823196,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -30385,6 +31671,56 @@
                     "50"
                   ]
                 }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "CurrentSceneName()",
+                            "=",
+                            "\"start_scene\""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::CompareStrings"
+                          },
+                          "parameters": [
+                            "CurrentSceneName()",
+                            "=",
+                            "\"select_level\""
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "sound\\Sound Effect\\Setting.mp3",
+                        "0",
+                        "",
+                        "setting.sound * 10",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
               ]
             },
             {
@@ -30763,6 +32099,39 @@
                                 "=",
                                 "setting.sound *10"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "2",
+                                "=",
+                                "setting.sound *10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "3",
+                                "=",
+                                "setting.sound *10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "4",
+                                "=",
+                                "setting.sound *10"
+                              ]
                             }
                           ]
                         }
@@ -30817,6 +32186,17 @@
                               "parameters": [
                                 "",
                                 "0",
+                                "=",
+                                "setting.music *10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1",
                                 "=",
                                 "setting.music *10"
                               ]
@@ -30891,6 +32271,17 @@
                               },
                               "parameters": [
                                 "",
+                                "0",
+                                "=",
+                                "setting.sound *10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeSoundCanal"
+                              },
+                              "parameters": [
+                                "",
                                 "1",
                                 "=",
                                 "setting.sound *10"
@@ -30902,7 +32293,29 @@
                               },
                               "parameters": [
                                 "",
-                                "0",
+                                "2",
+                                "=",
+                                "setting.sound *10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "3",
+                                "=",
+                                "setting.sound *10"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeSoundCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "4",
                                 "=",
                                 "setting.sound *10"
                               ]
@@ -30963,6 +32376,17 @@
                                 "=",
                                 "setting.music *10"
                               ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVolumeMusicCanal"
+                              },
+                              "parameters": [
+                                "",
+                                "1",
+                                "=",
+                                "setting.music *10"
+                              ]
                             }
                           ]
                         }
@@ -30980,7 +32404,69 @@
     },
     {
       "associatedLayout": "start_scene",
-      "name": "sound_1",
+      "name": "music_1",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StopMusicCanal"
+              },
+              "parameters": [
+                "",
+                "1"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "MusicPlaying"
+                  },
+                  "parameters": [
+                    "",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Backsound\\Backsound 1.mp3",
+                    "0",
+                    "yes",
+                    "setting.music * 10",
+                    "1"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "associatedLayout": "start_scene",
+      "name": "music_2",
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
