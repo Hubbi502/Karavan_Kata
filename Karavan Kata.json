@@ -10475,7 +10475,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.9771483533004046,
+        "zoomFactor": 0.349514919830816,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -17076,7 +17076,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8846089555231751,
+        "zoomFactor": 0.6784640977071162,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -23150,6 +23150,13 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "music_2"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -23780,7 +23787,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.29610819801823196,
+        "zoomFactor": 0.5941753637123861,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -26622,6 +26629,19 @@
             },
             {
               "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Sound Effect\\Hitung Mundur (321GO).mp3",
+                "0",
+                "",
+                "setting.sound * 10",
+                "1"
+              ]
+            },
+            {
+              "type": {
                 "value": "EnableLayerEffect"
               },
               "parameters": [
@@ -26657,7 +26677,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "0.8"
               ]
             },
             {
@@ -26676,7 +26696,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "0.8"
               ]
             },
             {
@@ -26695,7 +26715,7 @@
                 "value": "Wait"
               },
               "parameters": [
-                "1"
+                "0.8"
               ]
             },
             {
@@ -26714,6 +26734,19 @@
                 "value": "Wait"
               },
               "parameters": [
+                "0.8"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlaySoundCanal"
+              },
+              "parameters": [
+                "",
+                "sound\\Sound Effect\\Kuda dan Gerobak\\Kuda & Gerobak 2.mp3",
+                "1",
+                "yes",
+                "setting.sound * 10",
                 "1"
               ]
             },
@@ -28387,7 +28420,7 @@
                             "blok_kata",
                             "blok_spawner.X()",
                             "blok_spawner.Y()",
-                            ""
+                            "\"kuda_kuda\""
                           ]
                         },
                         {
@@ -28473,7 +28506,7 @@
                                 "kosa_kata_1",
                                 "blok_kata.X()",
                                 "blok_kata.Y()",
-                                ""
+                                "\"kuda_kuda\""
                               ]
                             },
                             {
@@ -28846,6 +28879,13 @@
             }
           ],
           "parameters": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Link",
+          "include": {
+            "includeConfig": 0
+          },
+          "target": "music_2"
         },
         {
           "type": "BuiltinCommonInstructions::Link",
@@ -31510,11 +31550,13 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "setting",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
