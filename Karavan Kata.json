@@ -26570,6 +26570,7 @@
       },
       "events": [
         {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -27200,6 +27201,42 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "DraggableBehavior::Dragged"
+                  },
+                  "parameters": [
+                    "blok_kata",
+                    "Draggable"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Sound Effect\\Drag Jawaban (Ambil).mp3",
+                    "0",
+                    "",
+                    "setting.sound * 10",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "DraggableBehavior::Dropped"
                   },
                   "parameters": [
@@ -27208,7 +27245,21 @@
                   ]
                 }
               ],
-              "actions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "sound\\Sound Effect\\Drag Jawaban (Ambil).mp3",
+                    "0",
+                    "",
+                    "setting.sound * 10",
+                    "1"
+                  ]
+                }
+              ],
               "events": [
                 {
                   "type": "BuiltinCommonInstructions::Standard",
@@ -27560,6 +27611,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -27631,6 +27683,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "move logic",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27892,6 +27945,7 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
+              "folded": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
